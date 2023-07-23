@@ -7,7 +7,7 @@
   font-family: "Poppins", sans-serif; */
 }
 body {
-  background-color: #212529;
+  background-color: aliceblue;
 }
 .container {
   max-width: 90%;
@@ -20,7 +20,7 @@ body {
 .rand {
   height: 300px;
   width: 100%;
-  background-color: #343a40;
+  background-color: navy;
   border-radius: 10px;
   transition-duration: 0.3s;
   cursor: pointer;
@@ -48,15 +48,52 @@ h4 {
   display: flex;
   justify-content: flex-end;
 }
+
+.btn .features {
+  display: flex;
+  margin-top: 3px;
+  justify-content: space-between;
+}
+
+.features ul {
+  display: flex;
+}
+.features ul li{
+  list-style: none;
+  display: flex;
+  margin: 0 5px;
+  width: 45px;
+  height: 45px;
+  border: solid 2px aliceblue;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: lightblue;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.features ul li:hover{
+  color: lightblue;
+  background-color: black;
+}
+
 button {
-  background-color: #495057;
+  background-color:  lightblue;
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 550;
   color: #f8f9fa;
-  border: none;
   outline: none;
+  border: solid 2px aliceblue;
+
   text-transform: uppercase;
   padding: 10px;
-  border-radius: 5px;
+  color: black;
+  justify-content: space-around;
+  border-radius: 25px;
   cursor: pointer;
+}
+button:hover{
+  color: lightblue;
+  border: aliceblue 2px solid;
+  background-color: black;
 }
