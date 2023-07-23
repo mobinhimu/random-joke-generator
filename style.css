@@ -7,7 +7,7 @@
   font-family: "Poppins", sans-serif; */
 }
 body {
-  background-color: #212529;
+  background-color: pink;
 }
 .container {
   max-width: 90%;
@@ -20,7 +20,7 @@ body {
 .rand {
   height: 300px;
   width: 100%;
-  background-color: #343a40;
+  background-color: navy;
   border-radius: 10px;
   transition-duration: 0.3s;
   cursor: pointer;
@@ -49,14 +49,14 @@ h4 {
   justify-content: flex-end;
 }
 button {
-  background-color: #495057;
+  background-color: navy;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   color: #f8f9fa;
-  border: none;
+  border: 2px white dotted;
   outline: none;
   text-transform: uppercase;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 25px;
   cursor: pointer;
 }
